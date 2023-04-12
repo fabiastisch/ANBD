@@ -81,7 +81,7 @@ public class Main {
 
         MusicManager.registerSources();
 
-        getJDA().getPresence().setActivity(Activity.playing("Pokemon Go"));
+        getJDA().getPresence().setActivity(Activity.playing("Nichts"));
         LOG.info("ANBD Ready! ({}ms)", System.currentTimeMillis() - APP_START_TIME);
 
         Runtime.getRuntime().addShutdownHook(new Thread(() -> shutdown(-1)));
